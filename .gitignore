@@ -1,3 +1,6 @@
+# Mk docs
+site/
+
 # vim files
 *.sw[op]
 
