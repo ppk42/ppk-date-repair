@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "daterepair"
+version = "0.1.0"
+description = "Helper library used to fix date and time formatting."
+authors = ["Peter Paul Kiefer <ppk42@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+coverage = "^7.5.0"
+pytest-cov = "^5.0.0"
+mkdocs = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
